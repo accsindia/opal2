@@ -180,24 +180,33 @@
     ]
   },
   "packageFolders": {
-    "/Users/ziaullahkhan/.nuget/packages/": {}
+    "C:\\Users\\devadmin\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Domain/OPAL.Domain.csproj",
+      "projectUniqueName": "C:\\Code\\ACCS\\opal2\\OPAL.Domain\\OPAL.Domain.csproj",
       "projectName": "OPAL.Domain",
-      "projectPath": "/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Domain/OPAL.Domain.csproj",
-      "packagesPath": "/Users/ziaullahkhan/.nuget/packages/",
-      "outputPath": "/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Domain/obj/",
+      "projectPath": "C:\\Code\\ACCS\\opal2\\OPAL.Domain\\OPAL.Domain.csproj",
+      "packagesPath": "C:\\Users\\devadmin\\.nuget\\packages\\",
+      "outputPath": "C:\\Code\\ACCS\\opal2\\OPAL.Domain\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/ziaullahkhan/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\devadmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -231,7 +240,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

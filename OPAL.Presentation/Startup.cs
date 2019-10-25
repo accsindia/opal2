@@ -4,9 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using OPAL.Application.Interfaces;
+using OPAL.Application.Search.Queries.GetBasicSearch;
+using OPAL.Search;
 
 namespace OPAL.Presentation
 {
@@ -23,6 +27,13 @@ namespace OPAL.Presentation
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.Configure<RazorViewEngineOptions>(options =>
+            {
+                options.ViewLocationExpanders.Add(new ViewLocationExpander());
+            });
+            services.AddScoped<IGetBasicSearchQuery, GetBasicSearchQuery>();
+            services.AddScoped<ISearchService, SearchService>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

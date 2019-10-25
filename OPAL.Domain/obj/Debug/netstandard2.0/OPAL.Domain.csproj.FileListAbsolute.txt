@@ -1,0 +1,8 @@
+C:\Code\ACCS\opal2\OPAL.Domain\bin\Debug\netstandard2.0\OPAL.Domain.deps.json
+C:\Code\ACCS\opal2\OPAL.Domain\bin\Debug\netstandard2.0\OPAL.Domain.dll
+C:\Code\ACCS\opal2\OPAL.Domain\bin\Debug\netstandard2.0\OPAL.Domain.pdb
+C:\Code\ACCS\opal2\OPAL.Domain\obj\Debug\netstandard2.0\OPAL.Domain.csprojAssemblyReference.cache
+C:\Code\ACCS\opal2\OPAL.Domain\obj\Debug\netstandard2.0\OPAL.Domain.AssemblyInfoInputs.cache
+C:\Code\ACCS\opal2\OPAL.Domain\obj\Debug\netstandard2.0\OPAL.Domain.AssemblyInfo.cs
+C:\Code\ACCS\opal2\OPAL.Domain\obj\Debug\netstandard2.0\OPAL.Domain.dll
+C:\Code\ACCS\opal2\OPAL.Domain\obj\Debug\netstandard2.0\OPAL.Domain.pdb
