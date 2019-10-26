@@ -1,0 +1,11 @@
+/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Application/bin/Release/netstandard2.0/OPAL.Application.deps.json
+/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Application/bin/Release/netstandard2.0/OPAL.Application.dll
+/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Application/bin/Release/netstandard2.0/OPAL.Application.pdb
+/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Application/bin/Release/netstandard2.0/OPAL.Domain.dll
+/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Application/bin/Release/netstandard2.0/OPAL.Domain.pdb
+/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Application/obj/Release/netstandard2.0/OPAL.Application.csprojAssemblyReference.cache
+/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Application/obj/Release/netstandard2.0/OPAL.Application.AssemblyInfoInputs.cache
+/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Application/obj/Release/netstandard2.0/OPAL.Application.AssemblyInfo.cs
+/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Application/obj/Release/netstandard2.0/OPAL.Application.csproj.CopyComplete
+/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Application/obj/Release/netstandard2.0/OPAL.Application.dll
+/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Application/obj/Release/netstandard2.0/OPAL.Application.pdb

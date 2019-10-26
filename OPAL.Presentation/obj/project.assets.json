@@ -8090,43 +8090,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\devadmin\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/ziaullahkhan/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\ACCS\\opal2\\OPAL.Presentation\\OPAL.Presentation.csproj",
+      "projectUniqueName": "/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Presentation/OPAL.Presentation.csproj",
       "projectName": "OPAL.Presentation",
-      "projectPath": "C:\\Code\\ACCS\\opal2\\OPAL.Presentation\\OPAL.Presentation.csproj",
-      "packagesPath": "C:\\Users\\devadmin\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\ACCS\\opal2\\OPAL.Presentation\\obj\\",
+      "projectPath": "/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Presentation/OPAL.Presentation.csproj",
+      "packagesPath": "/Users/ziaullahkhan/.nuget/packages/",
+      "outputPath": "/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Presentation/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\devadmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/ziaullahkhan/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Code\\ACCS\\opal2\\OPAL.Application\\OPAL.Application.csproj": {
-              "projectPath": "C:\\Code\\ACCS\\opal2\\OPAL.Application\\OPAL.Application.csproj"
+            "/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Application/OPAL.Application.csproj": {
+              "projectPath": "/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Application/OPAL.Application.csproj"
             },
-            "C:\\Code\\ACCS\\opal2\\OPAL.Search\\OPAL.Search.csproj": {
-              "projectPath": "C:\\Code\\ACCS\\opal2\\OPAL.Search\\OPAL.Search.csproj"
+            "/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Search/OPAL.Search.csproj": {
+              "projectPath": "/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Search/OPAL.Search.csproj"
             }
           }
         }
@@ -8177,7 +8168,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
