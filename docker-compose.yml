@@ -1,0 +1,28 @@
+version: "3.0"
+services: 
+  redis:
+    image: "redis:latest" 
+  frontend:
+    build:
+      dockerfile: Dockerfile.dev
+      context: ./OPAL.Presentation
+    volumes: 
+      - /app/node_modules
+      - ./server:/app
+    environment: 
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+  client:
+    build: 
+      dockerfile: Dockerfile.dev
+      config: ./client
+    volumes: 
+      - /app/node_modules
+      - ./client:/app
+  worker:
+    build: 
+      dockerfile: Dockerfile.dev
+      config: ./worker
+    volumes: 
+      - /app/node_modules
+      - ./worker:/app

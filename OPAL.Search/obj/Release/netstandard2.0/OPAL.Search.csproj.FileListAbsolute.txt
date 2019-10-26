@@ -1,0 +1,13 @@
+/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Search/bin/Release/netstandard2.0/OPAL.Search.deps.json
+/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Search/bin/Release/netstandard2.0/OPAL.Search.dll
+/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Search/bin/Release/netstandard2.0/OPAL.Search.pdb
+/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Search/bin/Release/netstandard2.0/OPAL.Application.dll
+/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Search/bin/Release/netstandard2.0/OPAL.Domain.dll
+/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Search/bin/Release/netstandard2.0/OPAL.Application.pdb
+/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Search/bin/Release/netstandard2.0/OPAL.Domain.pdb
+/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Search/obj/Release/netstandard2.0/OPAL.Search.csprojAssemblyReference.cache
+/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Search/obj/Release/netstandard2.0/OPAL.Search.AssemblyInfoInputs.cache
+/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Search/obj/Release/netstandard2.0/OPAL.Search.AssemblyInfo.cs
+/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Search/obj/Release/netstandard2.0/OPAL.Search.csproj.CopyComplete
+/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Search/obj/Release/netstandard2.0/OPAL.Search.dll
+/Users/ziaullahkhan/Code/ACCS/OPAL2/OPAL.Search/obj/Release/netstandard2.0/OPAL.Search.pdb
