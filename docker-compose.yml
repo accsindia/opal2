@@ -1,28 +1,25 @@
 version: "3.0"
-services: 
-  redis:
-    image: "redis:latest" 
-  frontend:
+services:
+  nginx:
+    restart: always
     build:
       dockerfile: Dockerfile.dev
-      context: ./OPAL.Presentation
-    volumes: 
-      - /app/node_modules
-      - ./server:/app
+      context: ./OPAL.Nginx
+    ports:
+      - '5000:80'
+  client:
+    build:
+      dockerfile: Dockerfile.Presentation.dev
+      context: .
     environment: 
       - REDIS_HOST=redis
-      - REDIS_PORT=6379
-  client:
-    build: 
-      dockerfile: Dockerfile.dev
-      config: ./client
-    volumes: 
-      - /app/node_modules
-      - ./client:/app
-  worker:
-    build: 
-      dockerfile: Dockerfile.dev
-      config: ./worker
-    volumes: 
-      - /app/node_modules
-      - ./worker:/app
+    ports:
+      - '5001:80'
+  api:
+    build:
+      dockerfile: Dockerfile.Service.dev
+      context: .
+    environment: 
+      - REDIS_HOST=redis
+    ports:
+      - '5002:80'
