@@ -1,0 +1,21 @@
+FROM mcr.microsoft.com/dotnet/core/sdk:3.0 AS build
+WORKDIR /app
+
+# copy csproj and restore as distinct layers
+COPY ./OPAL.Service.sln ./
+COPY ./OPAL.Service/OPAL.Service.csproj ./OPAL.Service/
+COPY ./OPAL.Domain/OPAL.Domain.csproj ./OPAL.Domain/
+COPY ./OPAL.Application/OPAL.Application.csproj ./OPAL.Application/
+COPY ./OPAL.Search/OPAL.Search.csproj ./OPAL.Search/
+RUN dotnet restore
+
+# copy everything else and build app
+COPY ./ ./
+
+WORKDIR /app
+RUN dotnet publish -c Release -o out ./OPAL.Service.sln
+
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.0 AS runtime
+WORKDIR /app
+COPY --from=build /app/out ./
+ENTRYPOINT ["dotnet", "OPAL.Service.dll"]
