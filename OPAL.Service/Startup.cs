@@ -11,7 +11,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using OPAL.Application.Interfaces;
 using OPAL.Application.Search.Queries.GetBasicSearch;
+using OPAL.Caching;
 using OPAL.Search;
+using ServiceStack.Redis;
 
 namespace OPAL.Service
 {
@@ -30,6 +32,17 @@ namespace OPAL.Service
             services.AddControllers();
             services.AddScoped<IGetBasicSearchQuery, GetBasicSearchQuery>();
             services.AddScoped<ISearchService, SearchService>();
+            services.Decorate<ISearchService, CachingService>();
+            services.Decorate<ISearchService>((inner, provider) => new CachingService(inner, provider.GetRequiredService<IRedisClient>()));
+
+            services.AddSingleton<IRedisClient>(x => {
+                var server = Environment.GetEnvironmentVariable("REDIS_HOST");
+                var port = Environment.GetEnvironmentVariable("REDIS_PORT");
+                
+                var manager = new RedisManagerPool(string.Format("{0}:{1}",server, port));
+                
+                return manager.GetClient();
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

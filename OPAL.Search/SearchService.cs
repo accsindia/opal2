@@ -9,7 +9,7 @@ namespace OPAL.Search
 {
     public class SearchService : ISearchService
     {
-        public IQueryable<BasicSearch> BasicSearch { get; set; }
+        public IEnumerable<BasicSearch> BasicSearch { get; private set; }
 
         public SearchService()
         {

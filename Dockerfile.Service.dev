@@ -4,6 +4,7 @@ WORKDIR /app
 # copy csproj and restore as distinct layers
 COPY ./OPAL.Service.sln ./
 COPY ./OPAL.Service/OPAL.Service.csproj ./OPAL.Service/
+COPY ./OPAL.Caching/OPAL.Caching.csproj ./OPAL.Caching/
 COPY ./OPAL.Domain/OPAL.Domain.csproj ./OPAL.Domain/
 COPY ./OPAL.Application/OPAL.Application.csproj ./OPAL.Application/
 COPY ./OPAL.Search/OPAL.Search.csproj ./OPAL.Search/

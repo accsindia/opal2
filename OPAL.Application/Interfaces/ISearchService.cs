@@ -8,6 +8,6 @@ namespace OPAL.Application.Interfaces
 {
     public interface ISearchService
     {
-        IQueryable<BasicSearch> BasicSearch { get; set; }
+        IEnumerable<BasicSearch> BasicSearch { get; }
     }
 }
